@@ -1,0 +1,6 @@
+{
+  "name": "Security Entrance & Asset Tracking",
+  "description": "Security entrance management and asset tracking system with role-based access, active visitor logs, and automated item history archive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

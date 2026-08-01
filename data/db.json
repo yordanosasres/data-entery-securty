@@ -1,0 +1,113 @@
+{
+  "workers": [
+    {
+      "id": "EMP-101",
+      "name": "Office Worker",
+      "role": "Office Worker",
+      "department": "General Office"
+    },
+    {
+      "id": "EMP-102",
+      "name": "Admin",
+      "role": "Admin Office",
+      "department": "Administration"
+    },
+    {
+      "id": "EMP-104",
+      "name": "Alex Rivera",
+      "role": "Security",
+      "department": "Main Gate Alpha"
+    },
+    {
+      "id": "EMP-105",
+      "name": "Officer James Vance",
+      "role": "Security",
+      "department": "Visitor Desk"
+    }
+  ],
+  "client_logs": [
+    {
+      "log_id": "LOG-8997",
+      "client_name": "ghyuty",
+      "contact": "+324545667",
+      "host_worker": "Office Worker",
+      "purpose": "gddfsd",
+      "items": [
+        "laptop"
+      ],
+      "check_in_time": "10:32 AM",
+      "check_out_time": "10:40 AM",
+      "status": "CHECKED_OUT"
+    },
+    {
+      "log_id": "LOG-5001",
+      "client_name": "Robert Fox",
+      "contact": "+1 555-0199",
+      "host_worker": "Office Worker",
+      "purpose": "Maintenance & Server Audit",
+      "items": [
+        "Dell XPS Laptop (SN-9821)",
+        "Diagnostic Toolbox"
+      ],
+      "check_in_time": "09:15 AM",
+      "check_out_time": "10:40 AM",
+      "status": "CHECKED_OUT"
+    },
+    {
+      "log_id": "LOG-5002",
+      "client_name": "Elena Rostova",
+      "contact": "+1 555-0244",
+      "host_worker": "Admin",
+      "purpose": "Vendor Meeting - Q3 Campaign",
+      "items": [
+        "MacBook Pro 16\" (SN-A8820)",
+        "Prototype Presentation Case"
+      ],
+      "check_in_time": "10:30 AM",
+      "check_out_time": "10:40 AM",
+      "status": "CHECKED_OUT"
+    },
+    {
+      "log_id": "LOG-5003",
+      "client_name": "Marcus Brody",
+      "contact": "+1 555-0311",
+      "host_worker": "Office Worker",
+      "purpose": "Legal Review & Contract Signing",
+      "items": [
+        "Leather Document Portfolio"
+      ],
+      "check_in_time": "11:00 AM",
+      "check_out_time": "10:40 AM",
+      "status": "CHECKED_OUT"
+    }
+  ],
+  "item_history_logs": [
+    {
+      "history_id": "HIST-9844",
+      "item_name": "Leather Document Portfolio",
+      "client_name": "Marcus Brody",
+      "host_worker": "Office Worker",
+      "check_in_time": "11:00 AM",
+      "check_out_time": "10:40 AM",
+      "status": "RETURNED"
+    },
+    {
+      "history_id": "HIST-9001",
+      "item_name": "Lenovo ThinkPad X1 (SN-7731)",
+      "client_name": "David Kim",
+      "host_worker": "Office Worker",
+      "check_in_time": "08:00 AM",
+      "check_out_time": "10:15 AM",
+      "status": "RETURNED"
+    },
+    {
+      "history_id": "HIST-9002",
+      "item_name": "DSLR Camera & Lens Kit",
+      "client_name": "Sophia Martinez",
+      "host_worker": "Admin",
+      "check_in_time": "08:30 AM",
+      "check_out_time": "10:45 AM",
+      "status": "RETURNED"
+    }
+  ]
+}
